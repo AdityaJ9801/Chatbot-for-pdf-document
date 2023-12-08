@@ -44,4 +44,5 @@ This repository hosts a versatile PDF chatbot built using Streamlit and LangChai
    export GOOGLE_API_KEY='YOUR_API_KEY'
 
 ## Run the script to launch the Streamlit application.
+  
    streamlit run app.py
