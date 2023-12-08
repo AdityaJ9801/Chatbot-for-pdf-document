@@ -8,7 +8,7 @@ from langchain.vectorstores import FAISS
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyD8uzXToT4I2ABs7qo_XiuKh8-L2nuWCEM'
+os.environ['GOOGLE_API_KEY'] = 'YOUR_API_KEY'
 
 
 def get_pdf_text(pdf_docs):
