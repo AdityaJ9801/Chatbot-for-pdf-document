@@ -45,4 +45,4 @@ This repository hosts a versatile PDF chatbot built using Streamlit and LangChai
 
 ## Run the script to launch the Streamlit application.
   
-   streamlit run app.py
+    streamlit run app.py
