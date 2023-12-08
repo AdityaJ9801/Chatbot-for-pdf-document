@@ -1,46 +1,43 @@
-## Chatbot-for-pdf-document
-<response>
+# PDF Chatbot with Streamlit and LangChain
 
-  ![work flow diagram](https://github.com/AdityaJ9801/Chatbot-for-pdf-document/assets/124603391/dd60fc15-0d25-41b4-82db-64ccd1a822de)
+## Overview
 
-Objective:
-The code creates an interactive PDF chatbot using Streamlit, allowing users to upload PDFs, ask questions, and receive responses.
+This repository hosts a versatile PDF chatbot built using Streamlit and LangChain. The chatbot allows users to interact with uploaded PDF files, ask questions, and receive context-aware responses. The project leverages PyPDF2 for PDF text extraction, LangChain for efficient text processing and conversation handling, and Streamlit for the user interface.
 
-Key Features:
-PDF Processing:
+![work flow diagram](https://github.com/AdityaJ9801/Chatbot-for-pdf-document/assets/124603391/f71d79cf-6829-49b5-835d-a41ba4623cbe)
 
-Extracts text from uploaded PDFs using PyPDF2.
-Text Chunking:
+## Features
 
-Divides the extracted text into smaller chunks for efficient processing.
-Text Embedding:
+- **PDF Processing:**
+  - Utilizes PyPDF2 to extract text from uploaded PDFs.
 
-Converts text chunks into vectors using Google Palm embeddings.
-Creates a vector store for efficient storage and retrieval.
-Conversational Chain:
+- **Text Processing:**
+  - Employs LangChain's text splitter for efficient chunking.
 
-Initiates a conversational chain using LangChain's Google Palm model.
-Utilizes a memory buffer to store chat history for context.
-User Interaction:
+- **Text Embedding:**
+  - Applies Google Palm embeddings for vectorization.
 
-Allows users to input questions through a Streamlit interface.
-Conversation Display:
+- **Conversational Chain:**
+  - Establishes a conversational chain with LangChain's Google Palm model.
+  - Implements memory management for enhanced conversation context.
 
-Displays the conversation history in a two-column layout.
-Alternately shows messages from the user and the chatbot.
-Download Functionality:
+- **User Interface:**
+  - Streamlit-based interface for seamless user interactions.
 
-Enables users to download the entire chat history or summarization results.
-Summarization:
+- **Conversation History:**
+  - Displays conversation history in a two-column layout.
 
-Provides an option to summarize the content with one-line topics and descriptors.
-Execution:
-Run the script to launch the Streamlit web app.
-Upload PDFs, ask questions, and explore chat history.
+- **Download Functionality:**
+  - Allows users to download the entire chat history.
 
-Dependencies:
-Streamlit, PyPDF2, LangChain (text_splitter, embeddings, llms, vectorstores, chains, memory).
-Usage:
-Set your Google API key.
-Run the script and interact with the PDF chatbot.
-</response>
+- **Summarization:**
+  - Provides an option for content summarization.
+
+## Usage
+
+1. Set up your Google API key in the environment variable.
+   ```bash
+   export GOOGLE_API_KEY='YOUR_API_KEY'
+
+## Run the script to launch the Streamlit application.
+- streamlit run app.py
