@@ -1,5 +1,9 @@
 # PDF Chatbot with Streamlit and LangChain
 
+
+https://github.com/AdityaJ9801/Chatbot-for-pdf-document/assets/124603391/d2b36ae0-a4ec-4479-a34a-dde7f53b1bda
+
+
 ## Overview
 
 This repository hosts a versatile PDF chatbot built using Streamlit and LangChain. The chatbot allows users to interact with uploaded PDF files, ask questions, and receive context-aware responses. The project leverages PyPDF2 for PDF text extraction, LangChain for efficient text processing and conversation handling, and Streamlit for the user interface.
